@@ -7,7 +7,7 @@ A commercial bank wants to predict which customers will or will not purchase a v
 * Used an alpha level of 0.002 to determine significant variables
 * Determined odds ratios for binary predictor variables in relation to the target variable
 * Tested linearity assumption for continuous predictor variables
-* Made visual representation of missing variables
+* Determined missing values for predictor variables
 
 ### Part 2: Variable Selection and Model Building
 * Used newly binned training data and imputed missing values
@@ -30,3 +30,11 @@ A commercial bank wants to predict which customers will or will not purchase a v
   * Confusion Matrix
   * Accuracy Score
   * Lift Chart
+  
+  
+### Data Visualizations:
+<img src="images/ROC_no_interactions.png" width=300> <img src="images/ROC_comparison.png" width=300>
+<img src="images/predicted_distributions.png" width=400>
+<img src="images/KS_plot.png" width=400>
+<img src="images/ROC_validation.png" width=300>
+<img src="images/Lift_validation.png" width=400>
